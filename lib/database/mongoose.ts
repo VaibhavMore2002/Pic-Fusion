@@ -22,7 +22,7 @@ export const connectToDatabase = async () => {
   cached.promise =
     cached.promise ||
     mongoose.connect(process.env.MONGODB_URL, {
-      dbName: "Pic Fusion",
+      dbName: "picfusion",
       bufferCommands: false,
     });
 };
